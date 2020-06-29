@@ -1,0 +1,54 @@
+<html>
+
+    <head>
+        <title>Error</title>
+        <style>
+            #initial_box
+            {
+                width: 500px;
+                height: 250px;
+                margin-top: 190px;
+                border-width: medium;
+                border-color: rgb(0, 0, 0);
+                border-style: solid;
+                border-radius: 20px;
+                font-family:serif; 
+                background-color: rgba(44, 40, 40, 0.4);
+            }
+
+            #tryagain_button
+            {
+                width: 28%;
+                height: 18%;
+                font-size: 18px;
+                border: medium solid rgb(206, 197, 197) ;
+                font-family:serif;
+                border-radius: 10px;
+                padding-left: 10px;
+            }
+            
+            #tryagain_button:hover
+            {
+                background: rgb(206, 197, 197);
+                color: white;
+            }
+
+        </style>
+        
+    </head>
+    <body>
+        <div align="center" class="container">
+            <div align="center" id="initial_box">
+                <br>
+                <br>
+                <font face = "WildWest" size = "5" color = "red">Error</font>
+                <br>
+                <font face = "WildWest" size = "5" color = "black">Wrong Email or Password</font>
+                <br>
+                <br>
+                <br>
+                <button type = "button" id = "tryagain_button" onclick = "window.location.href='./login.html'"><b>Try Again</b></button>
+            </div>
+        </div>           
+    </body>
+</html>

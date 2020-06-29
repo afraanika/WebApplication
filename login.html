@@ -1,0 +1,80 @@
+<html>
+
+    <head>
+        <title>Login</title>
+        <style>
+            #login_box
+            {
+                width: 500px;
+                height: 250px;
+                margin-top: 190px;
+                border-width: medium;
+                border-color: rgb(0, 0, 0);
+                border-style: solid;
+                border-radius: 20px;
+                font-family:serif; 
+                background-color: rgba(44, 40, 40, 0.4);
+            }
+
+            #email
+            {
+                width: 80%;
+                height: 18%;
+                font-size: 16px;
+                border: medium solid rgb(206, 197, 197) ;
+                border-radius: 10px;
+                padding-left: 10px;
+                margin-bottom: 30px;
+            }
+
+            #password
+            {
+                width: 72%;
+                height: 18%;
+                font-size: 16px;
+                border: medium solid rgb(206, 197, 197) ;
+                border-radius: 10px;
+                padding-left: 10px;
+                margin-bottom: 30px;
+            }
+            
+
+            #login_button
+            {
+                width: 28%;
+                height: 18%;
+                font-size: 18px;
+                border: medium solid rgb(206, 197, 197) ;
+                font-family:serif;
+                border-radius: 10px;
+                padding-left: 10px;
+            }
+
+            #login_button:hover
+            {
+                background: rgb(206, 197, 197);
+                color: white;
+            }
+            
+          </style>
+        
+    </head>
+    <body>
+        <div align="center" class="container">
+            <div align="center" id="login_box">
+                <form action="/landing_page" method="POST">
+                    <!-- <h1 id="header">Login</h1> -->
+                    <br>
+                    <label for= "email"><b>Email : </b></label>
+                    <input name = 'email' id = "email" type = "email" placeholder = "Enter Your Email Adress">
+                    <br>
+                    <label for = "password"><b>Password : </b></label>
+                    <input name = 'password' id = "password" type = "password" placeholder = "Enter Your Password">
+                    <br>
+                    <button name = 'submit' id = "login_button" type = "submit" id = "login_button"><b>Submit</b></button>
+    
+                </form>
+            </div>
+        </div>           
+    </body>
+</html>
