@@ -17,4 +17,4 @@ Download XAMPP and Import webapp.sql in XAMPP Server.
 
 ## Run
 
-Application listens to the port no 5000.
+Server listens to the port no 5000.
